@@ -1,0 +1,100 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Custom design below! */
+
+.banner{
+  background-image: url(https://lewagon.github.io/landing-page-challenge/images/background.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.banner .container h1{
+  color: white;
+}
+
+.banner .container p{
+  color: lightgrey;
+  font-size: 120%;
+}
+
+.banner .container a{
+  border: 1px solid #1EDD88;
+  border-radius: 50px;
+  background-color: #1EDD88;
+  padding: 15px 30px;
+}
+.container h2{
+  text-align: center;
+}
+
+.cards{
+  display:flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.card{
+  width: 200px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 0 0 15px lightgray;
+  padding: 10px 20px;
+  text-align: center;
+  margin-inline: 40px;
+}
+
+.card-img{
+  max-width: 100%;
+}
+
+.card p{
+  color: darkgray
+}
+
+.footer{
+  background-color: #2c2b2b;
+  height: 150px;
+  padding: 50px;
+}
+
+.footer p{
+  color:#6B6C6C;
+  text-align: center;
+}
+.link{
+  text-align: center;
+}
+
+.link i{
+  color:#1EDD88;
+  font-size: 30px;
+  margin:8px;
+}
+
+.footer p i{
+  font-size: 18px;
+  color: darkred;
+}
